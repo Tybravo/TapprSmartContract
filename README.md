@@ -1,6 +1,4 @@
-from pypandoc import convert_text
 
-readme = """
 # TapprWallet Smart Contract
 
 A secure Sui Move–based custodial wallet module with Verilens TEE-powered attestation, anti-replay protection, daily limits, platform fee management, and on-chain proof generation. This contract is used within the **Tappr Fintech payment infrastructure** to ensure cryptographically verifiable, fraud-resistant transactions.
